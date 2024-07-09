@@ -9,6 +9,33 @@
   }
   .navbar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px ;
+    background-color: #008080;
+  }
+  nav ul{
+    list-style: none;
+  }
+  .nav-title{
+    color: rgb(24, 24, 24);
+    font-family: "Azeret Mono", monospace;
+    font-size: 45px;
+    font-weight: 800px;
+  }
+  .nav-title-style{
+    color: rgb(253, 110, 10);
+  }
+  .btn-primary{
+    background-color: rgb(253, 110, 10);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s;
+  }
+  .btn-primary:hover{
+    background-color: #008080;
   }
