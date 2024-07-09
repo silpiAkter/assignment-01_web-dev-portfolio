@@ -49,9 +49,11 @@ nav ul{
 /* header banner styles */
 .banner{
   background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-content{
-  max-width: 998px;
+  max-width: 1140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,29 +62,97 @@ nav ul{
 }
 
 .banner-title{
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 700;
   text-align: center;
   line-height: 50px;
   letter-spacing: 0%;
+  padding-top: 50px;
   
 }
-.banner-subtitle{
-  font-size: 18px;
-  font-weight: 600;
+.subtitle{
+  color: rgba(13, 19, 33, 0.495);
+  font-size: 16px;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 0%;
   line-height: 27px;
   padding: 42px 73px;
 }
-.text-primary{
-  /* color: rgba(13, 19, 33, 0.02); */
-  color: rgba(13, 19, 33, 0.495);
-}
-.btn-styles a{
- 
-}
+
 .main{
-  max-width: 998px;
+  max-width: 1140px;
   margin: 0 auto;
+}
+/* about-web-dev styles */
+.about-web-dev{
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  max-width: 1140px;
+  margin: 100px 0px;
+  padding: 80px 100px;
+}
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 27px;
+  text-align: center;
+  padding: 20px 0px;
+}
+/* describe-web-dev-content styles */
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  gap: 98px;
+  padding: 48px;
+  max-width: 1000px;
+  border-radius: 10px;
+  margin: 48px 0px;
+}
+
+.web-dev-content{
+  max-width: 480px;
+  margin-left: 0px;
+}
+.web-dev-title{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 48px 16px 0px;
+}
+.web-dev-subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgb(13, 19, 33);
+  margin: 16px 0px;
+}
+.btn-secondery{
+   border: 2px solid #008080;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23px;
+   margin: 0px 10px;
+   letter-spacing: 0%;
+   padding: 12px 20px;
+   background-color: #fff;
+
+}
+.btn-secondery a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  
+
+}
+.container-img{
+  width: 260px;
+  height: 220px;
 }
