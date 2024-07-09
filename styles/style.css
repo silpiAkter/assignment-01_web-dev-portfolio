@@ -1,40 +1,88 @@
 .azeret-mono-normal {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  .navbar{
-    display: flex;
-    align-items: center;
-    padding: 15px 200px ;
-    background-color: #008080;
-  }
-  nav ul{
-    list-style: none;
-  }
-  .nav-title{
-    color: rgb(24, 24, 24);
-    font-family: "Azeret Mono", monospace;
-    font-size: 45px;
-    font-weight: 800px;
-  }
-  .nav-title-style{
-    color: rgb(253, 110, 10);
-  }
-  .btn-primary{
-    background-color: rgb(253, 110, 10);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 700;
-    transition: 1s;
-  }
-  .btn-primary:hover{
-    background-color: #008080;
-  }
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ /* header styles */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 200px ;
+  background-color: #008080;
+}
+nav ul{
+  list-style: none;
+}
+.nav-title{
+  color: rgb(24, 24, 24);
+  font-family: "Azeret Mono", monospace;
+  font-size: 45px;
+  font-weight: 800px;
+  letter-spacing: 0%;
+  line-height: 20px;
+}
+.nav-title-style{
+  color: rgb(253, 110, 10);
+}
+.btn-primary{
+  background-color: rgb(253, 110, 10);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 1s;
+}
+.btn-primary a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-primary:hover{
+  background-color: #008080;
+}
+/* header banner styles */
+.banner{
+  background-image: url(../assets/Hero-bg.png);
+}
+.banner-content{
+  max-width: 998px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 221px;
+}
+
+.banner-title{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 0%;
+  
+}
+.banner-subtitle{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0%;
+  line-height: 27px;
+  padding: 42px 73px;
+}
+.text-primary{
+  /* color: rgba(13, 19, 33, 0.02); */
+  color: rgba(13, 19, 33, 0.495);
+}
+.btn-styles a{
+ 
+}
+.main{
+  max-width: 998px;
+  margin: 0 auto;
+}
