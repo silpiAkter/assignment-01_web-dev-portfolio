@@ -71,13 +71,15 @@ nav ul{
   
 }
 .subtitle{
-  color: rgba(13, 19, 33, 0.495);
+  color: rgba(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 0%;
   line-height: 27px;
   padding: 40px 73px;
+  opacity: 0.7;
+
 }
 
 .main{
@@ -133,6 +135,8 @@ nav ul{
   letter-spacing: 0%;
   color: rgb(13, 19, 33);
   margin: 16px 0px;
+  opacity: 0.7;
+
 }
 .btn-secondery{
    border: 2px solid #008080;
@@ -159,8 +163,71 @@ nav ul{
 .my-inspiration{
   margin: 48px 0px;
 }
-.inspiration-content{
-  padding: 0px 144px;
+.inspiration-content, .my-target-content{
+  padding: 0px 145px;
   
 }
 
+/* my-target styles */
+.my-target{
+  margin: 0 auto;
+  max-width: 1140px;
+
+}
+.target-container{
+  margin: 100px 0px;
+
+}
+.target-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+}
+.item{
+  max-width: 365px;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+.item-bg-1{
+  background-color: #008080;
+}
+.item-bg-2{
+  background-color: rgb(253, 110, 10);
+}
+.item-bg-3{
+  background-color: #777878;
+}
+.item-title{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 8px 0px;
+}
+.item-subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(13, 19, 33);
+  opacity: 0.7;
+
+}
+.btn-target-item{
+  border: none;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 24px 0px;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-target-item a{
+  color: rgb(13, 19, 33);
+  text-decoration: none;
+}
