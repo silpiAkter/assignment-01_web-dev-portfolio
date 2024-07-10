@@ -46,6 +46,8 @@ nav ul{
 }
 .btn-primary:hover{
   background-color: #008080;
+  border: 2px solid #fff;
+  
 }
 /* header banner styles */
 .banner{
@@ -72,15 +74,17 @@ nav ul{
   padding-top: 50px;
   
 }
-.subtitle{
+.sub-title-style{
   color: rgba(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
   letter-spacing: 0%;
   line-height: 27px;
-  padding: 40px 73px;
   opacity: 0.7;
+}
+.subtitle{
+  text-align: center; 
+  padding: 40px 73px;
 
 }
 .content-img{
@@ -97,8 +101,7 @@ nav ul{
 .about-web-dev{
   border-radius: 16px;
   /* background: rgba(13, 19, 33, 0.02); */
-  background-color: #008080;
-  max-width: 1140px;
+  background-color: #0080801d;
   margin: 100px 0px;
   padding: 80px 100px;
 }
@@ -130,7 +133,7 @@ nav ul{
 .content-bg{
   background: linear-gradient(270.00deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
 }
-.content-bg-middel{
+.content-bg-middle{
   background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .web-dev-title{
@@ -140,16 +143,11 @@ nav ul{
   line-height: 36px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 16px 48px 16px 0px;
+  padding: 16px 48px 0px 0px;
+  margin: 16px 0px;
 }
 .web-dev-subtitle{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0%;
-  color: rgb(13, 19, 33);
   margin: 16px 0px;
-  opacity: 0.7;
 
 }
 .btn-secondery{
@@ -157,7 +155,7 @@ nav ul{
    font-size: 20px;
    font-weight: 600;
    line-height: 23px;
-   margin: 0px 10px;
+   margin: 16px 10px;
    letter-spacing: 0%;
    padding: 12px 20px;
    background-color: #fff;
@@ -190,7 +188,6 @@ nav ul{
 /* my-target styles */
 .my-target{
   margin: 0 auto;
-  max-width: 1140px;
 
 }
 .target-container{
@@ -198,9 +195,8 @@ nav ul{
 
 }
 .target-items{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .item{
@@ -209,15 +205,13 @@ nav ul{
   border-radius: 10px;
   
 }
-.item-bg-1{
+.item-bg{
   background-color: #008080;
 }
 .item-bg-2{
   background-color: rgb(253, 110, 10);
 }
-.item-bg-3{
-  background-color: #008080;
-}
+
 .item-title{
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -227,10 +221,10 @@ nav ul{
   text-align: left;
   margin: 8px 0px;
 }
-.item-subtitle{
+.item-subtitle, .news-letter-subtitle{
   font-size: 16px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 26px;
   letter-spacing: 0%;
   color: rgb(255, 255, 255);
   opacity: 0.7;
@@ -261,7 +255,6 @@ nav ul{
   margin: 0 auto;
   text-align: center;
   background-blend-mode: overlay;
-  max-width: 1140;
   max-height: 442px;
   border-radius: 16px;
  
@@ -280,12 +273,6 @@ nav ul{
   margin: 24px 0px;
 }
 .news-letter-subtitle{
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0%;
-  line-height: 27px;
-  opacity: 0.7;
   margin: 16px 0px;
   padding: 0px 100px;
 }
@@ -321,7 +308,7 @@ nav ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 200px;
+  padding: 32px 190px;
   margin: 64px 0px 0px 0px;
 }
 .footer-content{
@@ -331,8 +318,6 @@ nav ul{
   letter-spacing: 0%;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 0px 16px;
-  padding: 0px 6px;
 }
 #footer ul{
   display: flex;
@@ -352,8 +337,8 @@ nav ul{
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -366,5 +351,7 @@ nav ul{
 .fa-linkedin{
   color: rgb(0, 106, 255);
   background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
  
 }
