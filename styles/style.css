@@ -19,7 +19,8 @@ nav ul{
   list-style: none;
 }
 .nav-title{
-  color: rgb(24, 24, 24);
+  /* color: rgb(24, 24, 24); */
+  color: rgb(255, 255, 255);
   font-family: "Azeret Mono", monospace;
   font-size: 45px;
   font-weight: 800px;
@@ -51,6 +52,7 @@ nav ul{
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .banner-content{
   max-width: 1140px;
@@ -81,7 +83,12 @@ nav ul{
   opacity: 0.7;
 
 }
-
+.content-img{
+  clip-path: circle(50% at 50% 50%);
+  width: 300px;
+  height: 300px;
+}
+ /* main styles */
 .main{
   max-width: 1140px;
   margin: 0 auto;
@@ -89,7 +96,8 @@ nav ul{
 /* about-web-dev styles */
 .about-web-dev{
   border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
+  /* background: rgba(13, 19, 33, 0.02); */
+  background-color: #008080;
   max-width: 1140px;
   margin: 100px 0px;
   padding: 80px 100px;
@@ -100,10 +108,10 @@ nav ul{
   letter-spacing: 0%;
   line-height: 27px;
   text-align: center;
-  /* padding: 20px 0px; */
+
 }
-/* describe-web-dev-content styles */
-.container{
+/* card section styles */
+.card{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -173,6 +181,11 @@ nav ul{
   padding: 0px 145px;
   
 }
+.inspiration-video{
+  border:1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+  border-radius: 10px;
+}
 
 /* my-target styles */
 .my-target{
@@ -219,7 +232,7 @@ nav ul{
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0%;
-  color: rgba(13, 19, 33);
+  color: rgb(255, 255, 255);
   opacity: 0.7;
 
 }
@@ -233,15 +246,15 @@ nav ul{
   margin: 24px 0px;
   text-decoration: underline;
   background-color: transparent;
+  color: rgb(255, 255, 255);
 }
 .btn-target-item a{
-  color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 /* news-letter styles */
 .news-letter{
   background-image: url("../assets/handshake.jpg"), radial-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53));
-  /* background-color: rgba(0, 0, 0, 0.2); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -277,7 +290,7 @@ nav ul{
   padding: 0px 100px;
 }
 .form{
-  margin: 100px 0px;
+  margin: 32px 0px;
 }
 .input{
   background-color: rgb(255, 255, 255);
@@ -290,10 +303,16 @@ nav ul{
 
 }
 .submit{
-  padding: 20px;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  line-height: 23px;
+  letter-spacing: 0%;
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15) ;
   border-radius: 8px;
+
 }
 /* footer styles */
 #footer{
@@ -310,7 +329,7 @@ nav ul{
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
-  color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: 0px 16px;
   padding: 0px 6px;
@@ -326,28 +345,26 @@ nav ul{
   text-decoration: none;
 
 }
-.fa-facebook{
+.fa-facebook, .fa-github, .fa-linkedin{
   margin: 0px 10px;
   color: rgb(0, 178, 255);
   font-size: 35px;
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  border-radius: 60%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .fa-github{
-  margin: 0px 10px;
   color: rgb(22, 22, 20);
-  font-size: 35px;
   background-color: rgb(255, 255, 255);
-  box-sizing: border-box;
-  border-radius: 60%;
+
 }
 .fa-linkedin{
-  margin: 0px 10px;
   color: rgb(0, 106, 255);
-  font-size: 35px;
   background-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  
-
+ 
 }
