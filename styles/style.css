@@ -119,6 +119,12 @@ nav ul{
   max-width: 480px;
   margin-left: 0px;
 }
+.content-bg{
+  background: linear-gradient(270.00deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
+}
+.content-bg-middel{
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
 .web-dev-title{
   color: rgba(13, 19, 33, 0.7);
   font-size: 25px;
@@ -197,9 +203,10 @@ nav ul{
   background-color: rgb(253, 110, 10);
 }
 .item-bg-3{
-  background-color: #777878;
+  background-color: #008080;
 }
 .item-title{
+  color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -230,4 +237,61 @@ nav ul{
 .btn-target-item a{
   color: rgb(13, 19, 33);
   text-decoration: none;
+}
+/* news-letter styles */
+.news-letter{
+  background-image: url("../assets/handshake.jpg"), radial-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53));
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+  background-blend-mode: overlay;
+  max-width: 1140;
+  max-height: 442px;
+  border-radius: 16px;
+ 
+}
+
+.news-letter-content{
+  padding: 64px 48px;
+  margin: 24px 0px;
+}
+.news-letter-title{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0%;
+  margin: 24px 0px;
+}
+.news-letter-subtitle{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 27px;
+  opacity: 0.7;
+  margin: 16px 0px;
+  padding: 0px 100px;
+}
+.form{
+  margin: 100px 0px;
+}
+.input{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15) ;
+  border-radius: 8px;
+  width: 50%;
+
+}
+.submit{
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15) ;
+  border-radius: 8px;
 }
